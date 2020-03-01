@@ -145,6 +145,7 @@
     border: none;
     outline: none;
     background: #ebebeb;
+    opacity: 0.35;
 }
 
 .slick-prev:hover,
