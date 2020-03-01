@@ -2834,6 +2834,10 @@ a:focus,
 /*--------------------*/
 
 @media (max-width: 1199px) {
+	
+	.test-wtm{
+		font-size: 70%;
+	}
 
 	.mu-single-slide-content-area {
 		padding: 9% 10%;
@@ -3304,6 +3308,7 @@ a:focus,
 
 @media (max-width: 640px){
 
+
 	.mu-single-slide-content h1 {
 		font-size: 25px;
 		margin-bottom: 10px;
@@ -3376,8 +3381,14 @@ a:focus,
 
 
 @media (max-width: 480px) {
+
+	.test-wtm{
+		font-size: 60%;
+	}
+
 	.mu-single-slide-content a.mu-primary-btn {
-		display: none;
+		font-size: 8px;
+		margin-bottom: 10px;
 	}
 
 	.mu-single-counter span {
