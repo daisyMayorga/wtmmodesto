@@ -26,5 +26,22 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-white";
 }
 
+//buttonTop - Button to go back to top
+
+var btn = $('#buttonTop');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
 
 
